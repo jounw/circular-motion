@@ -74,7 +74,7 @@ if crashed:
 elif escaped:
     status = "지구 탈출"
 else:
-    status = "안정된 rnpeh"
+    status = "안정된 궤도"
 
 plt.title(f"(1000km) 시작 / 속도: {initial_speed_kms} km/s → {status}", color='white')
 plt.xlabel("X 위치 (km)")
